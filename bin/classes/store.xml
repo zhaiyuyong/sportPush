@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ID</key>
+		<string>Friday</string>
+		<key>Title</key>
+		<string>天天体坛周五版</string>
+		<key>Release date</key>
+		<date>2012-06-01T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/friday.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.friday.free</string>
+		<key>Download date</key>
+		<date>2012-06-01T15:03:07Z</date>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>Weekend</string>
+		<key>Title</key>
+		<string>天天体坛周末版</string>
+		<key>Release date</key>
+		<date>2012-04-30T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/weekend.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.weekend.free</string>
+		<key>Download date</key>
+		<date>2012-04-30T15:03:07Z</date>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>Monday</string>
+		<key>Title</key>
+		<string>天天体坛周一版</string>
+		<key>Release date</key>
+		<date>2012-05-29T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/monday.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.monday.free</string>
+		<key>Download date</key>
+		<date>2012-05-29T15:03:07Z</date>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>Tuesday</string>
+		<key>Title</key>
+		<string>天天体坛周二版</string>
+		<key>Release date</key>
+		<date>2012-05-29T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/tuesday.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.tuesday.free</string>
+		<key>Download date</key>
+		<date>2012-05-29T15:03:07Z</date>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>Wednesday</string>
+		<key>Title</key>
+		<string>天天体坛周三版</string>
+		<key>Release date</key>
+		<date>2012-05-30T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/wednesday.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.wednesday.free</string>
+		<key>Download date</key>
+		<date>2012-05-30T15:03:07Z</date>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>Thursday</string>
+		<key>Title</key>
+		<string>天天体坛周四版</string>
+		<key>Release date</key>
+		<date>2012-05-31T15:03:07Z</date>
+		<key>Cover URL</key>
+		<string>http://www.softechallenger.com/images/media/thursday.png</string>
+		<key>Free</key>
+		<true></true>
+		<key>Download URL</key>
+		<string>http://www.softechallenger.com/media/ecup20120407.zip</string>
+		<key>Folder</key>
+		<string>ecup20120407</string>
+		<key>Bundle identifier</key>
+		<string>net.iacademe.thursday.free</string>
+		<key>Download date</key>
+		<date>2012-05-31T15:03:07Z</date>
+	</dict>
+</array>
+</plist>

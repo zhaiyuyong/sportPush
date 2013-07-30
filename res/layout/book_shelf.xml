@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="vertical" >  
+      
+        <RelativeLayout  
+            android:layout_width="fill_parent"  
+            android:layout_height="48dip"  
+            android:background="@drawable/navbackground" >  
+      
+            <ImageView  
+                android:id="@+id/shelf_image_title"  
+                android:layout_width="wrap_content"  
+                android:layout_height="48dip"  
+                android:layout_centerInParent="true"  
+                android:background="@drawable/navbackground" />  
+      
+            <TextView 
+                android:id="@+id/shelf_title"
+                android:text="天天体坛"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                />
+                
+            <!--  页面右角的管理按钮
+            <Button  
+                android:id="@+id/shelf_image_button"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_alignParentRight="true"  
+                android:text="管理"
+                /> 
+            --> 
+        </RelativeLayout>  
+      
+        <ListView  
+            android:id="@+id/shelf_list"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"  
+            android:scrollbars="none"  
+            android:divider="#00000000"  
+            android:cacheColorHint="#00000000"/>  
+      
+    </LinearLayout>  

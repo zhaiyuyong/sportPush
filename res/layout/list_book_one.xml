@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+      
+        <RelativeLayout  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_alignParentLeft="true"  
+            android:layout_centerVertical="true"  
+            />  
+      
+        <RelativeLayout
+              
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_centerVertical="true"  
+            android:background="@drawable/pattern_image"  
+            android:orientation="horizontal" 
+            >  
+      
+            <RelativeLayout  android:id="@+id/layout_button_o1"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1" 
+                android:gravity="center_horizontal" >  
+      			<!-- 可以使用80*110作为图书标准 -->
+      			<Button android:id="@+id/button_click_o1" 
+      			    android:layout_width="66dip"  
+                    android:layout_height="88dip" 
+                    android:layout_marginTop="27dip" 
+                    android:layout_marginLeft="30dip" 
+                    android:background="#00000000"
+      			    />
+  				<WebView  
+                    android:id="@+id/button_o1" 
+                    android:layout_width="66dip"  
+                    android:layout_height="88dip"  
+                    android:layout_marginTop="27dip" 
+                    android:layout_marginLeft="30dip" 
+                    android:background="@null" />  
+            </RelativeLayout>  
+      
+            <LinearLayout  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1"  
+                android:gravity="center_horizontal" >  
+
+                <WebView  
+                    android:id="@+id/button_o2"  
+                    android:layout_width="66dip"  
+                    android:layout_height="88dip"  
+                    android:layout_marginTop="27dip" 
+                    android:layout_marginLeft="135dip" 
+                    android:visibility="invisible" />  
+            </LinearLayout>  
+      
+            <LinearLayout  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1"  
+                android:gravity="center_horizontal" >   
+                <WebView  
+                    android:id="@+id/button_o3"  
+                    android:layout_width="66dip"  
+                    android:layout_height="88dip"  
+                    android:layout_marginTop="27dip" 
+                    android:layout_marginLeft="225dip"
+                    android:visibility="invisible" />  
+            </LinearLayout>   
+        </RelativeLayout>  
+      
+    </RelativeLayout>  

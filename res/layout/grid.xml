@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ri_header_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:background="@drawable/navbackground" >
+    </RelativeLayout>
+
+    
+        
+       
+        
+        
+        
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+          <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+           
+            android:background="@drawable/download" />
+           <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/download" />
+        </LinearLayout>
+
+</LinearLayout>

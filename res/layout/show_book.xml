@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="vertical"
+        android:background="#FFFFFF" >  
+      
+        <RelativeLayout  
+            android:layout_width="fill_parent"  
+            android:layout_height="48dip"  
+            android:background="@drawable/navbackground" >  
+      
+            <ImageView  
+                android:layout_width="wrap_content"  
+                android:layout_height="48dip"  
+                android:layout_centerInParent="true"  
+                android:background="@drawable/navbackground" />  
+      
+            <TextView 
+                android:text="天天体坛"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"
+                />
+                
+            <Button  
+                android:id="@+id/show_view_back"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_alignParentLeft="true"  
+                android:text="书架"
+                />  
+        </RelativeLayout>  
+      
+        <WebView 
+            android:id="@+id/show_view" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  
+            android:background="@null" />  
+ 
+    </LinearLayout>  

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="200px" >  
+      
+        <ImageView  
+            android:id="@+id/shelf_image_left"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_alignParentLeft="true"  
+            android:layout_centerVertical="true"  
+            />  
+      
+        <RelativeLayout  
+            android:id="@+id/linearLayout1"  
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"  
+            android:layout_centerVertical="true"  
+            android:layout_toLeftOf="@+id/shelf_image_right"  
+            android:layout_toRightOf="@+id/shelf_image_left"  
+            android:background="@drawable/pattern_image"  
+            android:orientation="horizontal" >  
+      
+            <RelativeLayout  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1"  
+                android:gravity="center_horizontal" >  
+      			<ImageButton android:id="@+id/button_click_1" 
+      			    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content" 
+                    android:layout_marginTop="37dip" 
+                    android:layout_marginLeft="30dip" 
+                    android:background="#00000000"
+      			    />
+            </RelativeLayout>  
+      
+            <RelativeLayout  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1"  
+                android:gravity="center_horizontal" >  
+      		
+                <ImageButton android:id="@+id/button_click_2" 
+      			    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content" 
+                    android:layout_marginTop="37dip"
+                    android:layout_marginLeft="125dip" 
+                    android:background="#00000000"
+      			    />
+  				
+            </RelativeLayout>  
+      
+            <RelativeLayout  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1"  
+                android:gravity="center_horizontal" >  
+      
+                <ImageButton android:id="@+id/button_click_3" 
+      			    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content" 
+                    android:layout_marginTop="37dip" 
+                    android:layout_marginLeft="225dip"
+                    android:background="#00000000"
+      			    />
+  				
+            </RelativeLayout>   
+        </RelativeLayout>  
+      
+        <ImageView  
+            android:id="@+id/shelf_image_right"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_alignParentRight="true"  
+            android:layout_centerVertical="true"  
+        />  
+      
+    </RelativeLayout>  

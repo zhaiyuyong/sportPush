@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item id="0">     
+        <name>翟玉勇</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612077.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+     <item id="1">        
+        <name>哈哈哈</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612088.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+    <item id="2">     
+        <name>翟玉勇</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612077.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+     <item id="3">        
+        <name>哈哈哈</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612088.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+    <item id="4">     
+        <name>翟玉勇</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612077.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+     <item id="5">        
+        <name>哈哈哈</name>
+        <createTime>20120709</createTime>
+        <picture>http://192.168.5.109:8080/j2ee/images/20110612088.png</picture>
+        <contentUrl></contentUrl>
+    </item>
+</items>
